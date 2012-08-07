@@ -1,0 +1,16 @@
+<extension>
+    <modules>
+
+        <module>
+            <id>Example :: Document List Custom View</id>
+            <auto-deploy>true</auto-deploy>
+            <customizations>
+                <customization>
+                    <targetPackageRoot>org.alfresco</targetPackageRoot>
+                    <sourcePackageRoot>com.example.alfresco-share-doclib-views-example</sourcePackageRoot>
+                </customization>
+            </customizations>
+        </module>
+
+    </modules>
+</extension>

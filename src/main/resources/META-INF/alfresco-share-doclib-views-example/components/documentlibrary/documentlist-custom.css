@@ -1,0 +1,23 @@
+.doclist .simple-detailed .large-view span.first-child
+{
+    background-image: url(images/large-view-off-16.png);
+}
+.doclist .simple-detailed .large-view.yui-button-checked span.first-child
+{
+    background-image: url(images/large-view-on-16.png);
+}
+
+.doclist .thumbnail.documents-large {
+	height: 200px !important;
+	width: 200px !important;
+}
+.doclist .thumbnail.documents-large img {
+    max-width: 280px;
+}
+.doclist .folder.documents-large {
+    height: 200px !important;
+    width: 200px !important;
+}
+.doclist .folder.documents-large img {
+    width: 128px;
+}

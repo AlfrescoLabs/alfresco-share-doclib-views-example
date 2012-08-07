@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.example</groupId>
+	<artifactId>alfresco-share-doclib-views-example</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0</version>
+	<name>Example Additional Document Library View</name>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>net.sf.alchim</groupId>
+				<artifactId>yuicompressor-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>compress</goal>
+						</goals>
+						<configuration>
+							<excludes>
+								<exclude>**/*-min.js"</exclude>
+								<exclude>**/WEB-INF/**"</exclude>
+								<exclude>**/tiny_mce/**</exclude>
+								<exclude>**/yui/**</exclude>
+								<exclude>**/site-webscripts/**</exclude>
+							</excludes>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
